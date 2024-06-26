@@ -41,7 +41,7 @@ public class CrmService {
     }
 
     public void saveContact(Contact contact) {
-        if(contact != null) {
+        if(contact == null) {
             System.err.println("Contact is null.");
             return;
         }
